@@ -195,7 +195,6 @@ li {
 
 .li::marker {
     color:#3f2aff;
-    /* font-size: 1.5em; */
 }
 
 .li:last-child {
@@ -215,7 +214,6 @@ li {
 }
 
 
-/* (можно использовать вложенность) */
 .figure figcaption { 
     
     border-width: 1px;
@@ -237,7 +235,7 @@ li {
 .backgroundgrey2 {
     background-image: url(../img/decorate-2.png); 
 }
-/* figure {
+figure {
     display: inline-block;
     margin-bottom: 40px;
     width: 872px;
@@ -251,4 +249,4 @@ header {
     padding: 10px 0;
     background-color: gray;
     
-} */
+}
