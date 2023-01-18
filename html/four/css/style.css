@@ -39,7 +39,7 @@ body {
 
 .section {
     margin-bottom: 50px;
-   
+   font-size: 0;
 }
 
 .link1 {
@@ -113,8 +113,9 @@ body {
     padding: 30px;
     background-color: #f3f3f3;
     margin-bottom: 40px;
-    background-position: right center;
+    background-position: left center;
     background-repeat: no-repeat;
+    padding-left: 300px;
 }
 
 .grey .backgroundgrey2 {
