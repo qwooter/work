@@ -1,0 +1,638 @@
+@font-face {
+	font-family: "Muller";
+    src: local(OpenSansLight),
+	url(../fonts/Muller/OpenSansLight.woff) format("woff"),
+	url(../fonts/Muller/OpenSansLight.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font_display: swap;
+}
+.heafer-a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo123 {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-logo {
+    margin-right: 34px;
+}
+
+.tel {
+    text-decoration: none;
+    
+font-family: 'Muller';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: black;
+    margin-right: auto;
+}
+
+.main-content {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.heafer-container {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;    
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heafer-ul {
+    display: flex;
+    margin: 0;
+    margin-right: auto;
+    padding: 0;
+}
+
+.heafer-li {
+    display: inline-flex;
+    margin-right: 40px;
+
+}
+.heafer-li:last-child {
+    margin-right: 0;
+}
+
+.lk {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #CC9933;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.flex{
+    display: flex;
+}
+
+.fon {
+    background-color: #f1f1f1;
+    min-width: 1170px;
+    font-family: 'Muller';
+}
+
+.btn {
+    color: #CC9933;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid #CC9933;
+    border-radius: 5px;
+    background: white;
+    padding: 13px 20px;
+    margin-right: 40px;
+}
+.btn:last-child {
+    margin-right: 0;
+}
+
+.offers1 {
+    display: flex;
+    justify-content: space-between;
+}
+.offers2 {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+    height: 900px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+.offers-left  {
+    flex-direction: column;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-basis: 573px;
+    background: no-repeat;
+}
+.offers-left1  {
+    flex-direction: column;
+    flex-basis: 650px;
+    flex-wrap: wrap;
+
+}
+.offers-right {
+    flex: auto;    
+}
+
+.offers-block-1 {
+    margin-left: 0px;
+    margin-top: -35px;
+    margin-bottom: -20px;
+    background: no-repeat;
+    width: 573px;
+    height: 260px;
+    background-image: url(../img/Rectangle\ 16.png);
+}
+
+.offers-block-2 {
+    background: no-repeat;
+    width: 573px;
+    height: 340px;
+    background-image: url(../img/Rectangle\ 15.png);
+}
+
+.offers-block-3 {
+    border-radius: 15px;
+    background: no-repeat;
+    width: 573px;
+    height: 540px;
+    background-image: url(../img/334.jpg);
+}
+
+
+.offers-block-title {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    margin-bottom: 0;
+    padding-left: 45px;
+    text-decoration: none;
+
+}
+
+.offers-block-title-1 {
+    text-decoration: none;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: 135px;
+    margin-bottom: 0;
+    padding-left: 45px;
+ 
+}
+
+.offers-block-desc {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 45px;
+    padding-top: 20px;
+    margin-bottom: 47px;
+}
+
+.offers-block-desc-1 {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-left: 45px;
+    padding-top: 20px;
+    margin-bottom: 47px;
+}
+.more {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    /* identical to box height */
+    color: #F0BF5F;
+    padding-left: 45px;
+    background-repeat: no-repeat;
+    background-position: righT;
+    padding-right: 15PX;
+    background-image: url(../img/Rectangle\ 2.png) ;
+}
+.section-title {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+
+}
+.about-desc {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-decoration: none;
+    
+}
+
+.servises-title {  
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 191px;
+    color: #CC9933;
+    margin-bottom: 0;
+}
+.servises-title-a {
+    background-repeat: no-repeat;
+    background-position: righT;
+    padding-right: 15PX;
+    background-image: url(../img/Rectangle\ 2.png) ;
+    text-decoration: none;
+    color: #CC9933;
+    padding-left: 45px;
+}
+.servises-block {
+    border-radius: 15px 15px 15px 15px;
+    width: 573px;
+    height: 330px;
+    background: no-repeat;
+    background-color: #fff ;
+}
+
+.servises-desc{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    padding-left: 45px;
+}
+.bg1 {
+    background-image: url(../img/10.png);
+}
+.bg2 {
+    background-image: url(../img/12.png);
+}
+.bg3 {
+    background-image: url(../img/15.png);
+}
+.bg4 {
+    background-image: url(../img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png);
+}
+/*Предпоследний БЛОК */
+.abot-title{
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.advantages{
+    margin-bottom: 70px;
+    font-size: 0;
+}
+.advantages-ul{
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.advantages-li{
+    display: flex;
+    border-radius: 15px;
+    width: 240px;
+    min-height: 240px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: top 40px   left 45px ;
+}
+.advantages-li:nth-child(4n) {
+    margin-right: 0;
+}
+.adv-main{
+    margin: 0;
+    margin-bottom: 24px;
+    padding-top: 116px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.advantages-desc{
+    padding: 116px 42px 32px 45px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+.adv-bg1{
+    background-image: url(../img/1.svg);
+}
+.adv-bg2{
+    background-image: url(../img/2.svg);
+}
+.adv-bg3{
+    background-image: url(../img/3.svg);
+}
+.adv-bg4{
+    background-image: url(../img/4.svg);
+}
+.adv-bg5{
+    background-image: url(../img/5.svg);
+}
+.adv-bg6{
+    background-image: url(../img/6.svg);
+}
+.adv-bg7{
+    background-image: url(../img/7.svg);
+}
+.adv-bg8{
+    background-image: url(../img/8.svg);
+}
+/* ПОСЛЕДНИЙ БЛОК */
+.placement{
+    margin-bottom: 70px;
+}
+.placement-ul{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 0px;
+    gap: 24px;
+}
+.placement-li{
+    width: 374px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 440px;
+    
+}
+.placement-block{
+    border-radius: 15px;
+
+}
+.placement-bg{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.placement-li-last{
+    
+    width: 374px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    background-image: url(../img/29.jpg);
+    height: 440px;
+}
+.placement-desc{
+    padding-left: 45px;
+    
+    
+}
+.hotel-price
+{
+    font-family: 'Muller';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+margin-bottom: 16px;
+/* у меня его забрали */
+
+
+color: #000000;
+}
+.night
+{
+    font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+margin-bottom: 16px;
+
+/* Если вы это читаете то мой код украли((( */
+
+}
+.ot {
+font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+color: #999999;
+margin-bottom: 16px;
+}
+/*Я не виноват*/
+.placement-country {
+font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+margin-bottom: 16px;
+/* identical to box height */
+color: #999999;
+}
+
+.lagoona-bt {
+font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+color: #CC9933;
+height: 42px;
+border: 1px solid #CC9933;
+border-radius: 10px;
+align-items: center;
+width: 100px;
+
+}
+.price {
+    margin-bottom: 16px;
+    padding-top: 36px;
+
+}
+.placement-hotel {
+    margin-bottom: 16px;
+}
+.placement-li-last{
+    display: flex;
+    width: 374px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    background-image: url(../img/29.jpg);
+    height: 440px;
+}
+.placement-all {
+    display: flex;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+/* identical to box height, or 40px */
+    
+    padding-left: 54px;
+    padding-bottom: 27px    ;
+    align-self: flex-end;
+}
+.placement-st {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: righT;
+    padding-right: 15px;
+    background-image: url(../img/Rectangle3.png);
+}
+/* ХАЧЕТУР */
+.reset{
+    margin-bottom: 0px;
+}
+.main-title {
+    padding-left: 45px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+.tour{
+    margin-bottom: 70px;
+}
+.tour-content{
+    background-color: #E9E9E9;
+    border-radius: 15px;
+    padding-bottom: 45px;
+
+    padding-top: 45px;
+    max-width: 1170px;
+}
+.tour-form{
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    min-height: 106px;
+    width: 1080px;
+}
+.form-inside{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 28px;
+}
+.tour-city{
+    width: 170px;
+    border-style: none;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+}
+.tour-country{
+    width: 170px;
+    border-style: none;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.tour-date{
+    width: 140px;
+    border-style: none;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.tour-night{
+    width: 120px;
+    border-style: none;
+    border-bottom: 1px #E9E9E9 solid;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.tour-people{
+    width: 120px;
+    border-style: none;
+    border-bottom: 1px #E9E9E9 solid;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+.btn-tour{
+    padding: 13px 30px;
+}
+.tour-el {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-label {
+    padding-left: 4px;
+    font-family: 'Muller';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+    margin-bottom: 15px;
+}
+.tour-sity {
+    width: 170px;
+    border-style: none;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+/* КОНтакты */
+.content {
+    margin-bottom: 70px;
+}
+.contact-content {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding-bottom: 375px;
+    padding-top: 45px;
+    max-width: 1170px;
+}
+.li-contact {
+    list-style: none;
+}
